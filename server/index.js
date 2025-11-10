@@ -8,7 +8,7 @@ import OpenAI from "openai"; // ✅ NEW: OpenAI integration
 
 dotenv.config();
 
-// -------------------- APP CONFIG --------------------
+// -------------------- APP CONFIG ---------------------
 const app = express();
 app.use(cors());
 app.use(express.json());
